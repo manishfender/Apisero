@@ -1,0 +1,16 @@
+REST API has no has no official standard at all because it is an architectural style. SOAP API, on the other hand, has an official standard because it is a protocol.
+REST APIs uses multiple standards like HTTP, JSON, URL, and XML while SOAP APIs is largely based on HTTP and XML.
+
+As REST API deploys multiple standards, so it takes fewer resources and bandwidth as compared to SOAP that uses XML for the creation of Payload and results in the large
+sized file.
+
+The ways both APIs exposes the business logics are also different. REST API takes advantage of URL exposure like @path("/WeatherService") while SOAP API use of services
+interfaces like @WebService.
+
+SOAP API defines too many standards, and its implementer implements the things in a standard way only. In the case of miscommunication from service, the result will 
+be the error. REST API, on the other hand, don't make emphasis on too many standards and results in corrupt API in the end.
+
+REST API uses Web Application Description Language, and SOAP API used Web Services Description language for describing the functionalities being offered by web services.
+
+REST APIs are more convenient with JavaScript and can be implemented easily as well. SOAP APIs are also convenient with JavaScript but don't support for greater 
+implementation.
